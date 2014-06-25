@@ -698,6 +698,38 @@
 			"visible"		"0"
 		}
 	}
+	
+	"MapName"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"mapname"
+			"font"			"Medium8"
+			"font_minmode"		"Medium8"
+			"labelText"		"%mapname%"
+			"textAlignment"		"center"
+			"xpos"			"c-83"
+			"xpos_minmode"		"r198"
+			"ypos"			"r32"
+			"ypos_minmode"		"r167"
+			"zpos"			"3"
+			"wide"			"165"
+			"wide_minmode"		"110"
+			"tall"			"15"
+			"tall_minmode"		"16"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			if_mvm
+			{
+				"font"			"Medium8"
+				"xpos"			"c115"
+				"ypos"			"r132"
+				"wide"			"178"
+			}	
+		}
 
 	"LocalPlayerDuelStatsPanel"
 	{
@@ -1749,11 +1781,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"Regular16"
+			"font"			"Medium8"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"center"
-			"xpos"			"c-140"	[$WIN32]
-			"ypos"			"r135"	[$WIN32]
+			"xpos"			"c-150"	[$WIN32]
+			"ypos"			"r130"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
 			"tall"			"15"
@@ -1766,11 +1798,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"Regular16"
+			"font"			"Medium8"
 			"labelText"		"%support%"
 			"textAlignment"	"center"		[$WIN32]
-			"xpos"			"c-100"	[$WIN32]
-			"ypos"			"r135"	[$WIN32]
+			"xpos"			"c-83"	[$WIN32]
+			"ypos"			"r130"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
 			"tall"			"15"
@@ -1783,10 +1815,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"Regular16"
+			"font"			"Medium8"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"center"
-			"xpos"			"c-142"	[$WIN32]
+			"xpos"			"c-151"	[$WIN32]
 			"ypos"			"r120"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
@@ -1800,10 +1832,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"Regular16"
+			"font"			"Medium8"
 			"labelText"		"%damage%"
 			"textAlignment"	"center"		[$WIN32]
-			"xpos"			"c-100"	[$WIN32]
+			"xpos"			"c-83"	[$WIN32]
 			"ypos"			"r120"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
