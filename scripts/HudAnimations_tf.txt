@@ -2,7 +2,7 @@
 //Fog's Crosshair
 //-----------------------------------------------------
 
-//event DamagedPlayer //Uncomment this to have cross hair flash red (Have to use a HUD crosshair
+event DamagedPlayer //Uncomment this to have cross hair flash red (Have to use a HUD crosshair
 {
 	Animate CrossHairRequest 	FgColor 	"255 0 0 255" 	Linear 0.0 0.00000000000000001  ///Replace CrossHairRequest with your HUD Crosshair
 	Animate CrossHairRequest 	FgColor 	"0 255 255 255" 	Linear 0.20 0.10001			///Replace CrossHairRequest with your HUD Crosshair
