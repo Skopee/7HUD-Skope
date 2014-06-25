@@ -174,13 +174,13 @@
 		
 		"fgcolor"		"255 255 255 255"
 	}
-	
+	///My crosshair
 	"CrossHairRequest"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairRequest"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0" //1 
+		"enabled"		"0" //1
 		"zpos"			"1"
 		"xpos"			"c-11"
 		"ypos"			"c-11"
