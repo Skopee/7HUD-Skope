@@ -512,7 +512,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
-		"labelText"		""
+		"labelText"		"Class Loadout"			////////////////////////////If you want an image change "Class Loadout" to ""
 		"xpos"			"c-166"
 		"ypos"			"c-180"
 		"zpos"			"10"
@@ -529,28 +529,29 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_items"
-		}
+		
+		///////////////////Uncomment for Image//////////////////////////////
+		//"SubImage"
+		//{
+		//	"ControlName"	"ImagePanel"
+		//	"fieldName"		"SubImage"
+		//	"xpos"			"4"
+		//	"ypos"			"4"
+		//	"zpos"			"1"
+		//	"wide"			"17"
+		//	"tall"			"17"
+		//	"visible"		"1"
+		//	"enabled"		"1"
+		//	"scaleImage"	"1"
+		//	"image"			"glyph_items"
+		//}
 	}
 
-	"TauntLoadoutButton"
+	"TauntLoadoutButton"																	
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"TauntLoadoutButton"
-		"labelText"		""
+		"fieldName"		"TauntLoadoutButton" 
+		"labelText"		"Taunt Loadout" 	////////////////////////////If you want an image change "Taunt Loadout" to ""
 		"xpos"			"c-166"
 		"ypos"			"c-153"
 		"zpos"			"2"
@@ -568,20 +569,21 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"../hud/ico_reel"
-		}
+		///////////////////Uncomment for Image//////////////////////////////
+		//"SubImage"								
+		//{											
+		//	"ControlName"	"ImagePanel"
+		//	"fieldName"		"SubImage"
+		//	"xpos"			"4"
+		//	"ypos"			"4"
+		//	"zpos"			"1"
+		//	"wide"			"17"
+		//	"tall"			"17"
+		//	"visible"		"1"
+		//	"enabled"		"1"
+		//	"scaleImage"	"1"
+		//	"image"			"../hud/ico_reel"
+		//}
 	}
 
 	"TauntsExplanation"
