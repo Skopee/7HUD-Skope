@@ -91,7 +91,7 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"			//change to 1 to get tiny percent icon
+		"visible"		"0"			//change to 1 to get tiny percent icon
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%"
@@ -119,7 +119,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy48"
+		"font"			"Health64"
 		"fgcolor"		"BuildingUber"
 	}
 	"ChargeLabelShadow"
@@ -140,7 +140,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy48"
+		"font"			"Health64"
 		"fgcolor"		"HudShadow"
 	}
 	"ChargeLabelBG2"
