@@ -44,7 +44,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r631"	
-		"ypos"	 "0"	
+		"ypos"	 "5"	
 		"wide"	 "628"
 		"tall"	 "468"
 
