@@ -1,5 +1,5 @@
 ====
-7HUD
+7HUD-Skope
 ====
 To install:
 
@@ -11,43 +11,6 @@ To uninstall:
 
 	Delete the folder.
 
-IQ required:
-
-	7.6.
-
-============
-USING 4PLUG - http://teamfortress.tv/forum/thread/13401 - YOU MUST HAVE THE NEWEST VERSION!
-============
-
-4Plug is a program developed by four that acts as a plugin manager for TF2. I strongly recommend using it with my HUD, as it organizes all the links and allows you to edit simple things much easier.
-
-------------------------------------------------------
-HUD VERSION W/ 4PLUG:
-------------------------------------------------------
-
-	- Open 4Plug and click the settings button (the one next to the  bank of 4 buttons)
-	- Click the drop down under “HUD Version” and select the desired version
-	- Click apply and launch TF2 OR if you're already in-game, alt-tab back in and input "hud_reloadscheme" into console.
-
-------------------------------------------------------
-CHAT BOX POS. W/ 4PLUG:
-------------------------------------------------------
-
-	- Open 4Plug and click the settings button (the one next to the  bank of 4 buttons)
-	- Click the drop down under “Chat Position” and select the desired position
-	- Click apply and launch TF2 OR if you're already in-game, alt-tab back in and input "hud_reloadscheme" into console.
-	
-------------------------------------------------------
-BINDING 2 FAVORITE SERVERS TO MENU BUTTONS W/ 4PLUG:
-------------------------------------------------------
-
-	- Open 4Plug and click the settings button (the one next to the  bank of 4 buttons)
-	- Change server IP’s and passwords to correct values.
-	- If there is no password, simply don’t put anything in the password box.
-	- DO NOT CHANGE THE TEXT VALUE, LEAVE IT AS 7 AND 6. These are the labels of the icons on the main menu.
-
-------------------------------------------------------
-------------------------------------------------------
 CUSTOMIZING
 ------------------------------------------------------
 ------------------------------------------------------
@@ -58,9 +21,6 @@ FOG'S CROSSHAIRS:
 	- To enable a crosshair flash when you hit a player, find HudAnimations_tf.txt in the scripts folder and under the first heading, DamagedPlayer, there will be instructions.
 
 ------------------------------------------------------
-
-Garm3n's CROSSHAIRS:
-
 
 Normal CROSSHAIRS
 
