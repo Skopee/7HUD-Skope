@@ -32,7 +32,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"				//east
 		"labelText"		"%Ammo%"
-		"fgcolor_override" "227 227 227 255"
+		
 		
 	}		
 	"AmmoInReserve"
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%AmmoInReserve%"
-		"fgcolor_override" "100 250 120 255"
+		
 	}			
 	"AmmoNoClip"
 	{
@@ -67,7 +67,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%Ammo%"
-		"fgcolor_override" "100 250 120 255"
+		
 	}
 	"AmmoInClipShadow"	
 	{	

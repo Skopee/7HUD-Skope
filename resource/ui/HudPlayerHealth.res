@@ -32,7 +32,7 @@
 		"textAlignment"	"east"			
 		"font"			"Health64"
 		"fgcolor"		"Health"
-		"fgcolor_override" "227 227 227 255"
+		
 	}
 	"PlayerStatusHealthValueShadow"
 	{
