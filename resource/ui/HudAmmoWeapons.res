@@ -59,7 +59,7 @@
 		"font"			"Health64"
 		"fgcolor"		"Ammo"
 		"xpos"	"53"					//67
-		"ypos"	"-1"
+		"ypos"	"0"
 		"zpos"			"5"
 		"wide"	"100" 
 		"tall"	"56" 
