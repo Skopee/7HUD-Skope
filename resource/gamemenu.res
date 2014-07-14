@@ -81,7 +81,7 @@
 	}
 	"Version"
 	{
-		"label" "7HUD-Skope v1.1" 
+		"label" "7HUD-Skope v1.2" 
 		"command"	"engine echo To check for updates view the steam group page"
 	}
 	"Scoreboard"
