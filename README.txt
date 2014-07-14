@@ -14,6 +14,13 @@ CUSTOMIZING
 ------------------------------------------------------
 ------------------------------------------------------
 
+HEALTH AND AMMO BOXES
+
+To have boxes around health and ammo when you have low ammo/low health/buffed health 
+simply delete HudAnimations_tf.txt and rename HudAnimations_tf -Boxes.txt to HudAnimations_tf.txt
+
+------------------------------------------------------
+
 FOG'S CROSSHAIRS:
 	
 	- To enable Fog's Crosshairs, navigate to your hudlayout.res file, found in the scripts folder. Change the "enabled" value under the Fog's Crosshairs heading to "1". Then pick your Crosshair using the included list of crosshairs and insert the character of the crosshair in the "labeltext" line.
