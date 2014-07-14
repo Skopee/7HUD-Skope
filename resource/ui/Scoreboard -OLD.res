@@ -247,7 +247,7 @@
 		"textAlignment"	"west"
 		"xpos"			"c-251"
 		"xpos_minmode"		"232"
-		"ypos"			"r299"
+		"ypos"			"r302"
 		"ypos_minmode"		"r343"
 		"zpos"			"5"
 		"wide"			"100"
@@ -273,7 +273,7 @@
 		"textAlignment"	"center"
 		"xpos"			"c-100"
 		"xpos_minmode"		"26"
-		"ypos"			"r317"
+		"ypos"			"r320"
 		"ypos_minmode"		"r361"
 		"zpos"			"5"
 		"wide"			"99"
@@ -296,7 +296,7 @@
 		"textAlignment"	"east"
 		"xpos"			"c-237"
 		"xpos_minmode"		"0"
-		"ypos"			"r298"
+		"ypos"			"r299"
 		"ypos_minmode"		"r343"
 		"wide"			"160"
 		"wide_minmode"		"140"
@@ -386,7 +386,7 @@
 		"textAlignment_minmode"	"west"
 		"xpos"			"c150"
 		"xpos_minmode"		"232"
-		"ypos"			"r299"
+		"ypos"			"r302"
 		"ypos_minmode"		"r149"
 		"wide"			"100"
 		"tall"			"20"
@@ -411,7 +411,7 @@
 		"textAlignment"	"center"
 		"xpos"			"c1"
 		"xpos_minmode"		"26"
-		"ypos"			"r317"
+		"ypos"			"r320"
 		"ypos_minmode"		"r150"
 		"zpos"			"5"
 		"wide"			"99"
@@ -435,7 +435,7 @@
 		"textAlignment_minmode"	"east"
 		"xpos"			"c77"
 		"xpos_minmode"		"0"
-		"ypos"			"r298"
+		"ypos"			"r299"
 		"ypos_minmode"		"r149"
 		"wide"			"160"
 		"wide_minmode"		"140"
@@ -698,29 +698,39 @@
 			"visible"		"0"
 		}
 	}
-	"PlayerScoreLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerScoreLabel"
-		"font"		"Garm3n20"
-		"labelText"		"%playerscore%"
-		"textAlignment"	"west"
-		"fgcolor"		"Black"
-		"xpos"			"c-270"
-		"ypos"			"r115"	
-		"zpos"			"3"
-		"wide"			"140"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
+	
+	"MapName"
 		{
-			"visible"		"0"
+			"ControlName"	"CExLabel"
+			"fieldName"		"mapname"
+			"font"			"Medium8"
+			"font_minmode"		"Medium8"
+			"labelText"		"%mapname%"
+			"textAlignment"		"center"
+			"xpos"			"c-83"
+			"xpos_minmode"		"r198"
+			"ypos"			"r32"
+			"ypos_minmode"		"r167"
+			"zpos"			"3"
+			"wide"			"165"
+			"wide_minmode"		"110"
+			"tall"			"15"
+			"tall_minmode"		"16"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			if_mvm
+			{
+				"font"			"Medium8"
+				"xpos"			"c115"
+				"ypos"			"r132"
+				"wide"			"178"
+			}	
 		}
-	}
+
 	"LocalPlayerDuelStatsPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1766,68 +1776,77 @@
 				"tall"		"25"
 			}
 		}
-		"MapName"
+		
+			"SupportLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
+			"fieldName"		"SupportLabel"
 			"font"			"Medium8"
-			"font_minmode"		"Medium8"
-			"labelText"		"%mapname%"
-			"textAlignment"		"center"
-			"xpos"			"c-83"
-			"xpos_minmode"		"r198"
-			"ypos"			"r131"
-			"ypos_minmode"		"r167"
+			"labelText"		"#TF_Scoreboard_Support"
+			"textAlignment"	"center"
+			"xpos"			"c-150"	[$WIN32]
+			"ypos"			"r130"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
-			"wide_minmode"		"110"
 			"tall"			"15"
-			"tall_minmode"		"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
-
-			if_mvm
-			{
-				"font"			"Medium8"
-				"xpos"			"c115"
-				"ypos"			"r132"
-				"wide"			"178"
-			}	
 		}
-		"GameType"
+		"Support"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"gametype"
+			"fieldName"		"Support"
 			"font"			"Medium8"
-			"font_minmode"		"Medium8"
-			"labelText"		"%gametype%"
-			"textAlignment"		"center"
-			"xpos"			"c-83"		//"c-83"
-			"xpos_minmode"		"r198"
-			"ypos"			"r121"
-			"ypos_minmode"		"r158"
+			"labelText"		"%support%"
+			"textAlignment"	"center"		[$WIN32]
+			"xpos"			"c-83"	[$WIN32]
+			"ypos"			"r130"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
-			"wide_minmode"		"110"
 			"tall"			"15"
-			"tall_minmode"		"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
-
-			if_mvm
-			{
-				"font"			"Medium8"
-				"xpos"			"c115"
-				"ypos"			"r122"
-				"wide"			"178"
-			}
 		}
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"Medium8"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"	"center"
+			"xpos"			"c-151"	[$WIN32]
+			"ypos"			"r120"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"165"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"Medium8"
+			"labelText"		"%damage%"
+			"textAlignment"	"center"		[$WIN32]
+			"xpos"			"c-83"	[$WIN32]
+			"ypos"			"r120"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"165"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+	
+	
 	}
 
 	"ButtonLegendBG"		[$X360]

@@ -24,12 +24,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"c-255"		
+		"xpos"			"c-256"		
 		"xpos_minmode"		"28"		//"c33"
 		"ypos"			"r279"
 		"ypos_minmode"		"r324"
 		"zpos"			"-1"
-		"wide"			"253"
+		"wide"			"257"
 		"wide_minmode"		"233"
 		"tall"			"208"
 		"tall_minmode"		"168"
@@ -52,10 +52,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBGRed"
-		"xpos"			"c2"
+		"xpos"			"c1"
 		"ypos"			"r279"
 		"zpos"			"-1"
-		"wide"			"253"
+		"wide"			"257"
 		"tall"			"208"
 		"fillcolor"		"HudBG"
 		"autoResize"	"0"
@@ -174,11 +174,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueTeamLabelBG"
-		"xpos"			"c-255"
+		"xpos"			"c-256"
 		"xpos_minmode"		"98"	//"c33
 		"ypos"			"r301"
 		"ypos_minmode"		"r346"
-		"wide"			"183"
+		"wide"			"182"
 		"wide_minmode"		"163"
 		"tall"			"18"
 		"autoResize"	"0"
@@ -200,7 +200,7 @@
 		"xpos_minmode"		"28"		//c240
 		"ypos"			"r301"
 		"ypos_minmode"		"r346"
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -245,7 +245,7 @@
 		"labelText"		"%blueteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"west"
-		"xpos"			"c-251"
+		"xpos"			"c-252"
 		"xpos_minmode"		"232"
 		"ypos"			"r302"
 		"ypos_minmode"		"r343"
@@ -313,7 +313,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedTeamLabelBG"
-		"xpos"			"c72"
+		"xpos"			"c75"
 		"xpos_minmode"		"98"
 		"ypos"			"r301"
 		"ypos_minmode"		"r152"
@@ -335,11 +335,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedBGSmall"
-		"xpos"			"c2"
+		"xpos"			"c1"
 		"xpos_minmode"		"28"
 		"ypos"			"r301"
 		"ypos_minmode"		"r152"
-		"wide"			"25"
+		"wide"			"26"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -384,7 +384,7 @@
 		"fgcolor"		"Black"
 		"textAlignment"	"east"
 		"textAlignment_minmode"	"west"
-		"xpos"			"c150"
+		"xpos"			"c153"
 		"xpos_minmode"		"232"
 		"ypos"			"r302"
 		"ypos_minmode"		"r149"
@@ -456,12 +456,12 @@
 		"labelText"		"%server%"
 		"fgcolor"			"White"
 		"textAlignment"	"west"
-		"xpos"			"c87"
+		"xpos"			"c-256"
 		"xpos_minmode"	"7"
-		"ypos"			"r43"
+		"ypos"			"r80"
 		"ypos_minmode"	"r14"
-		"wide"			"470"
-		"tall"			"15"
+		"wide"			"530"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -485,9 +485,9 @@
 		"textAlignment"	"east"
 		"textAlignment_minmode"	"west"
 		"fgcolor"			"Time"
-		"xpos"			"-190"
+		"xpos"			"r699"
 		"xpos_minmode"		"7"
-		"ypos"			"r48"
+		"ypos"			"r80"
 		"ypos_minmode"		"r27"
 		"zpos"			"8"
 		"wide"			"530"
@@ -703,13 +703,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"mapname"
-			"font"			"Medium8"
+			"font"			"Medium13"
 			"font_minmode"		"Medium8"
 			"labelText"		"%mapname%"
-			"textAlignment"		"center"
-			"xpos"			"c-83"
+			"textAlignment"		"west"
+			"xpos"			"r151"
 			"xpos_minmode"		"r198"
-			"ypos"			"r32"
+			"ypos"			"r100"
 			"ypos_minmode"		"r167"
 			"zpos"			"3"
 			"wide"			"165"
@@ -952,7 +952,7 @@
 			"fieldName"		"KillsLabel"
 			"font"			"Default"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
-			"textAlignment"	"east"
+			"textAlignment"	"center"
 			"xpos"			"113"		//113
 			"ypos"			"7"
 			"zpos"			"3"
@@ -974,10 +974,10 @@
 			"font"			"Bold25"
 			"font_minmode"		"Bold25"
 			"labelText"		"%kills%"
-			"textAlignment"	"east"
-			"xpos"			"c-146"
+			"textAlignment"	"west"
+			"xpos"			"r155"
 			"xpos_minmode"		"r403"		//c-53
-			"ypos"			"r167"
+			"ypos"			"r400"
 			"ypos_minmode"		"r174"
 			"zpos"			"3"
 			"wide"			"140"
@@ -1024,9 +1024,9 @@
 			"font_minmode"		"Bold25"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
-			"xpos"			"c6"
+			"xpos"			"r113"
 			"xpos_minmode"		"r256"
-			"ypos"			"r167"
+			"ypos"			"r400"
 			"ypos_minmode"		"r174"
 			"zpos"			"3"
 			"wide"			"140"
@@ -1048,14 +1048,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"8"
+			"xpos"			"r165"
 			"xpos_minmode"		"r313"
-			"ypos"			"r130"
+			"ypos"			"r345"
 			"ypos_minmode"		"r145"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1065,7 +1065,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"138"
 				"ypos"		"r172"
 			}
@@ -1074,14 +1074,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%assists%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"-55"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r366"		//-16
-			"ypos"			"r130"
+			"ypos"			"r345"
 			"ypos_minmode"		"r145"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1091,7 +1091,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"147"
 				"ypos"		"r172"
 			}
@@ -1100,14 +1100,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"fgcolor"			"White"
 			"textAlignment"		"west"
-			"xpos"			"113"
+			"xpos"			"r165"
 			"xpos_minmode"		"r313"
-			"ypos"			"r130"
+			"ypos"			"r315"
 			"ypos_minmode"		"r138"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1117,7 +1117,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"138"
 				"ypos"		"r162"
 			}
@@ -1126,14 +1126,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%captures%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"58"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r366"
-			"ypos"			"r130"
+			"ypos"			"r315"
 			"ypos_minmode"		"r138"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1143,7 +1143,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"147"
 				"ypos"		"r162"
 			}
@@ -1152,14 +1152,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"113"
+			"xpos"			"r165"
 			"xpos_minmode"		"r313"
-			"ypos"			"r120"
+			"ypos"			"r305"
 			"ypos_minmode"		"r131"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1169,7 +1169,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"138"
 				"ypos"		"r152"
 			}
@@ -1178,14 +1178,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%defenses%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"58"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r366"
-			"ypos"			"r120"
+			"ypos"			"r305"
 			"ypos_minmode"		"r131"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1195,7 +1195,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"147"
 				"ypos"		"r152"
 			}
@@ -1204,14 +1204,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"226"
+			"xpos"			"r165"
 			"xpos_minmode"		"r313"
-			"ypos"			"r130"
+			"ypos"			"r325"
 			"ypos_minmode"		"r124"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1221,7 +1221,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"138"
 				"ypos"		"r142"
 			}
@@ -1230,14 +1230,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%dominations%"
 			"fgcolor"		"White"
-			"textAlignment"		"east"
-			"xpos"			"171"
+			"textAlignment"		"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r366"
-			"ypos"			"r130"
+			"ypos"			"r325"
 			"ypos_minmode"		"r124"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1247,7 +1247,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"147"
 				"ypos"		"r142"
 			}
@@ -1256,14 +1256,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"226"
+			"xpos"			"r165"
 			"xpos_minmode"		"r313"
-			"ypos"			"r120"
+			"ypos"			"r335"
 			"ypos_minmode"		"r117"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1273,7 +1273,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"138"
 				"ypos"		"r132"
 			}
@@ -1282,14 +1282,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%Revenge%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"171"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r366"
-			"ypos"			"r120"
+			"ypos"			"r335"
 			"ypos_minmode"		"r117"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1299,7 +1299,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"147"
 				"ypos"		"r132"
 			}
@@ -1308,14 +1308,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"8"
+			"xpos"			"r165"
 			"xpos_minmode"		"r313"
-			"ypos"			"r120"
+			"ypos"			"r255"
 			"ypos_minmode"		"r110"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1325,7 +1325,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"138"
 				"ypos"		"r122"
 			}
@@ -1334,14 +1334,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%destruction%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"-55"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r366"
-			"ypos"			"r120"
+			"ypos"			"r255"
 			"ypos_minmode"		"r110"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1351,7 +1351,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"147"
 				"ypos"		"r122"
 			}
@@ -1360,14 +1360,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"c95"
+			"xpos"			"r165"
 			"xpos_minmode"		"r198"
-			"ypos"			"r130"
+			"ypos"			"r295"
 			"ypos_minmode"		"r145"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1377,7 +1377,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-70"
 				"ypos"		"r172"
 			}
@@ -1386,14 +1386,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%healing%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"c30"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r251"
-			"ypos"			"r130"
+			"ypos"			"r295"
 			"ypos_minmode"		"r145"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1403,7 +1403,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-60"
 				"ypos"		"r172"
 				"wide"		"163"
@@ -1413,14 +1413,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"c95"
+			"xpos"			"r165"
 			"xpos_minmode"		"r198"
-			"ypos"			"r120"
+			"ypos"			"r285"
 			"ypos_minmode"		"r138"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1430,7 +1430,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-70"
 				"ypos"		"r162"
 			}
@@ -1439,14 +1439,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%invulns%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"c30"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r251"
-			"ypos"			"r120"
+			"ypos"			"r285"
 			"ypos_minmode"		"r138"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1456,7 +1456,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-60"
 				"ypos"		"r162"
 				"wide"		"163"
@@ -1466,14 +1466,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"c198"
+			"xpos"			"r165"
 			"xpos_minmode"		"r198"
-			"ypos"			"r130"
+			"ypos"			"r275"
 			"ypos_minmode"		"r131"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1483,7 +1483,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-70"
 				"ypos"		"r152"
 			}
@@ -1492,14 +1492,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%headshots%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"c145"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r251"
-			"ypos"			"r130"
+			"ypos"			"r275"
 			"ypos_minmode"		"r131"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1509,7 +1509,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-60"
 				"ypos"		"r152"
 				"wide"		"163"
@@ -1519,14 +1519,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"c198"
+			"xpos"			"r165"
 			"xpos_minmode"		"r198"
-			"ypos"			"r120"
+			"ypos"			"r265"
 			"ypos_minmode"		"r124"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1536,7 +1536,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-70"
 				"ypos"		"r142"
 			}
@@ -1545,14 +1545,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%backstabs%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"c145"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r251"
-			"ypos"			"r120"
+			"ypos"			"r265"
 			"zpos"			"3"
 			"wide"			"162"
 			"ypos_minmode"		"r124"
@@ -1562,7 +1562,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-60"
 				"ypos"		"r142"
 				"wide"		"163"
@@ -1572,14 +1572,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font_minmode"		"Medium8"
-			"font"			"Medium8"
+			"font_minmode"		"Medium9"
+			"font"			"Medium9"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"c312"
+			"xpos"			"r165"
 			"xpos_minmode"		"r198"
-			"ypos"			"r130"
+			"ypos"			"r245"
 			"ypos_minmode"		"r117"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1589,7 +1589,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-70"
 				"ypos"		"r132"
 			}
@@ -1598,14 +1598,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%teleports%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"c259"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r251"
-			"ypos"			"r130"
+			"ypos"			"r245"
 			"ypos_minmode"		"r117"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1615,7 +1615,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-60"
 				"ypos"		"r132"
 				"wide"		"163"
@@ -1625,14 +1625,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"c312"
+			"xpos"			"r165"
 			"xpos_minmode"		"r198"
-			"ypos"			"r120"
+			"ypos"			"r235"
 			"ypos_minmode"		"r110"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1642,7 +1642,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-70"
 				"ypos"		"r122"
 			}
@@ -1651,14 +1651,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"Medium8"
-			"font_minmode"		"Medium8"
+			"font"			"Medium9"
+			"font_minmode"		"Medium9"
 			"labelText"		"%bonus%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"c259"
+			"textAlignment"	"west"
+			"xpos"			"r110"
 			"xpos_minmode"		"r251"
-			"ypos"			"r120"
+			"ypos"			"r235"
 			"ypos_minmode"		"r110"
 			"zpos"			"3"
 			"wide"			"162"
@@ -1668,7 +1668,7 @@
 
 			if_mvm
 			{
-				"font"		"Medium8"
+				"font"		"Medium9"
 				"xpos"		"c-60"
 				"ypos"		"r122"
 				"wide"		"163"
@@ -1678,59 +1678,42 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"StatsBG"
-			"xpos"			"0"
-			"xpos_minmode"		"r317"
-			"ypos"			"r135"
-			"ypos_minmode"		"r168"
+			"xpos"			"r165"
+			"ypos"			"r406"
 			"zpos"			"-3"
-			"wide"			"340"
-			"wide_minmode"		"233"
-			"tall"			"30"
-			"tall_minmode"		"73"
-			"fillcolor"		"HudBGT"
+			"wide"			"75"
+			"tall"			"18"
+			"fillcolor"		"White"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-
-			if_mvm
-			{
-				"xpos"		"c-295"
-				"ypos"		"r172"
-				"wide"		"402"
-				"tall"		"67"
-			}
 		}
-		"StatsBGMiddle"
+		"StatsLabel"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"StatsBGMiddle"
-			"xpos"			"c-84"
-			"ypos"			"r155"
-			"zpos"			"-3"
-			"wide"			"167"
-			"tall"			"50"
-			"fillcolor"		"HudBGT"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"controlName"	"CExLabel"
+			"fieldName"	 	"StatsLabel"
 			"visible"		"1"
-			"visible_minmode"	"0"
 			"enabled"		"1"
-
-			if_mvm
-			{
-				"visible"		"0"
-			}
+			"zpos"			"1"
+			"xpos"			"r170"
+			"ypos"			"r409"
+			"wide"			"50"
+			"tall"			"25"
+			"font"			"Bold14"
+			"labelText"		"STATS"
+			"fgcolor"		"Black"
+			"textAlignment"	"center"
 		}
 		"StatsBGRight"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"StatsBGRight"
-			"xpos"			"r341"
-			"ypos"			"r135"
-			"zpos"			"-3"
-			"wide"			"341"
-			"tall"			"30"
+			"xpos"			"r166"
+			"ypos"			"r384"
+			"zpos"			"-1"
+			"wide"			"76"
+			"tall"			"208"
 			"fillcolor"		"HudBGT"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1747,6 +1730,59 @@
 				"visible"		"1"
 			}
 		}
+		"ServerBGLabel"
+		{
+			"controlName"	"CExLabel"
+			"fieldName"	 	"ServerBGLabel"
+			"visible"		"0"
+			"enabled"		"1"
+			"zpos"			"1"
+			"xpos"			"c-255"
+			"xpos_minmode"		"r273"	
+			"ypos"			"r173"
+			"ypos_minmode"		"r172"
+			"wide"			"50"
+			"wide_minmode"		"27"
+			"tall"			"25"
+			"font"			"Bold14"
+			"font_minmode"		"Medium13"
+			"labelText"		"SERVER"
+			"fgcolor"		"Black"
+			"textAlignment"	"center"
+		}
+				"ServerBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ServerBG"
+			"xpos"			"c-255"
+			"ypos"			"r170"
+			"zpos"			"-1"
+			"wide"			"253"
+			"tall"			"18"
+			"fillcolor"		"White"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"visible_minmode"	"0"
+			"enabled"		"1"
+		}
+		"ServerBG2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ServerBG2"
+			"xpos"			"c-255"
+			"ypos"			"r170"
+			"zpos"			"-2"
+			"wide"			"253"
+			"tall"			"60"
+			"fillcolor"		"HudBGT"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"visible_minmode"	"0"
+			"enabled"			"1"
+		}
+		
 		"Versus"
 		{
 			"controlName"	"CExLabel"
@@ -1754,9 +1790,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"zpos"			"1"
-			"xpos"			"c-14"
-			"xpos_minmode"		"r273"	
-			"ypos"			"r152"
+			"xpos"			"r142"
+			"xpos_minmode"		"r280"	
+			"ypos"			"r385"
 			"ypos_minmode"		"r165"
 			"wide"			"28"
 			"wide_minmode"		"27"
@@ -1781,11 +1817,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"Medium8"
+			"font"			"Medium9"
 			"labelText"		"#TF_Scoreboard_Support"
-			"textAlignment"	"center"
-			"xpos"			"c-150"	[$WIN32]
-			"ypos"			"r130"	[$WIN32]
+			"textAlignment"	"west"
+			"xpos"			"r165"	[$WIN32]
+			"ypos"			"r355"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
 			"tall"			"15"
@@ -1798,11 +1834,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"Medium8"
+			"font"			"Medium9"
 			"labelText"		"%support%"
-			"textAlignment"	"center"		[$WIN32]
-			"xpos"			"c-83"	[$WIN32]
-			"ypos"			"r130"	[$WIN32]
+			"textAlignment"	"west"		[$WIN32]
+			"xpos"			"r110"	[$WIN32]
+			"ypos"			"r355"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
 			"tall"			"15"
@@ -1815,11 +1851,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"Medium8"
+			"font"			"Medium9"
 			"labelText"		"#TF_Scoreboard_Damage"
-			"textAlignment"	"center"
-			"xpos"			"c-151"	[$WIN32]
-			"ypos"			"r120"	[$WIN32]
+			"textAlignment"	"west"
+			"xpos"			"r165"	[$WIN32]
+			"ypos"			"r365"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
 			"tall"			"15"
@@ -1832,11 +1868,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"Medium8"
+			"font"			"Medium9"
 			"labelText"		"%damage%"
-			"textAlignment"	"center"		[$WIN32]
-			"xpos"			"c-83"	[$WIN32]
-			"ypos"			"r120"	[$WIN32]
+			"textAlignment"	"west"		[$WIN32]
+			"xpos"			"r110"	[$WIN32]
+			"ypos"			"r365"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"165"
 			"tall"			"15"
