@@ -58,6 +58,8 @@ CHAT BOX:
 SCOREBOARD:
 
 	To change scoreboard to 6v6, simply hit click the "Scoreboard" button on the main menu or the in-game menu.
+	
+	To change the scoreboard to the old one, simply delete Scoreboard.res, and rename Scoreboard -OLD.res as Scoreboard.res
 
 ------------------------------------------------------
 
