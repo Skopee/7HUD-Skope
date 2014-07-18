@@ -212,7 +212,7 @@
 			"pinCorner"				"0"
 			"visible"				"0"
 			"enabled"				"0"
-			"fillcolor"				"28 28 28 255"
+			"fillcolor"				"255 28 28 255"
 			"PaintBackgroundType"	"0"
 		}
 		"Health"
